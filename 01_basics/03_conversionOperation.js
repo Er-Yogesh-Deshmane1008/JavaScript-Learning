@@ -15,3 +15,21 @@ console.log(valueInNumber);
 true =>1; false =>0;
 
 */
+
+/*================operations=============*/
+
+let val=3;
+let negval=-val;
+let mulval=val*3
+let addval=mulval+negval;
+console.log(negval);
+console.log(mulval);
+console.log(addval);
+console.log(2**3);
+console.log(2%10);
+console.log(2/10);
+console.log("2"+1);
+console.log(1+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+console.log((3 + 4)  * 5 % 3);
