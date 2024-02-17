@@ -1,7 +1,7 @@
 # projects related to DOM
 
 ## Project link
-[click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
+[click here](https://stackblitz.com/edit/vitejs-vite-luhr3b?file=index.css)
 
 # Solution code
 
