@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event's</title>
+</head>
+<body class="color">
+    <h1> Learning about JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+const changeMe = function(){
+   
+    console.log("JavaScript", Date.now());
+    console.log("start");
+   }
+   
+   const clear = document.querySelector("#start").addEventListener('click', function(){
+    const clearall = setInterval(changeMe,1000);
+     document.querySelector("#stop").addEventListener('click',function(){
+        clearInterval(clearall)
+        console.log(stop);
+     })
+})
+</script>
+</html>
